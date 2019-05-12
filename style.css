@@ -1,0 +1,95 @@
+.heading{
+	padding: 10px;
+	color: green;
+	text-align: center;
+	background-color: brown;
+
+}
+.heading img{
+	width: 200px;
+	height: 100px;
+}
+
+.navigation{
+	background-color: black;
+	color: white;
+
+}
+.navigation ul{
+	display: flex;
+	justify-content: all;
+}
+
+.navigation ul li{
+	list-style: none;
+	padding: 2%;
+	color: white;
+}
+.intro{
+	text-align: center;
+}
+.football{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.image{
+	flex: 10%;
+
+	
+}
+
+.footer, .footer a{
+	color:white;
+	 background-color:brown;
+	 width: 100%;
+}
+
+.image2{
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+}
+.1{
+	flex: 30%;
+
+}
+.2{
+	flex: 20%;
+}
+
+.video{
+	position: center;
+	height: 700px;
+	width: 90%;
+	padding: 70px;
+
+}
+
+.football iframe{
+	padding: 20px;
+
+}
+
+@media only screen and (max-width:700px){
+	.football image{
+		flex-wrap: wrap;
+		width: 250px;
+	}
+	.navigation{
+		width: 100%;
+	}
+	.navigation ul{
+	width: 96%;
+	}
+
+	.navigation ul li{
+	width: 93%;
+	}
+	.image2{
+		flex-direction: column;
+	}
+
+ 
+}
